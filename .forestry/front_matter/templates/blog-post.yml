@@ -11,7 +11,8 @@ fields:
 - name: date
   type: datetime
   label: Date
-  description: Date of post. If you select a date in the future, it will NOT be published until that date.
+  description: Date of post. If you select a date in the future, it will NOT be published
+    until that date.
   config:
     required: false
     date_format: 
