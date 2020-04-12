@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Þjónusta
-permalink: /services/
----
+title: Greinar
+permalink: "/greinar/"
 
+---
 Þjónusta

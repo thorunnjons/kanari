@@ -39,5 +39,3 @@ fields:
   default: []
   label: Categories
   description: Tag or categorize your post
-pages:
-- _posts/prufa22.md
