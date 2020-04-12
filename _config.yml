@@ -19,6 +19,8 @@ collections:
   posts:
     title: Posts
     output: true
+
+permalink: :title
  
 # Build settings
 markdown: kramdown
