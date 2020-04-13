@@ -5,18 +5,20 @@
 layout: default
 ---
 
-<h1 class="page-heading">Nýjustu færslur</h1>
+<h1 class="page-heading mb-5">Nýjustu færslur</h1>
 
-<ul class="post-list">
+<ul class="post-list list-unstyled">
   {% for post in site.posts %}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <li class="my-5">
 
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-      <i>{{ post.content | strip_html | truncatewords: 80 }}</i><br>
-      <a href="{{ post.url }}">Read more...</a><br><br>
+      <div class="post-header text-center mb-3">
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </div>
+      <p>{{ post.content | strip_html | truncatewords: 80 }}</p>
+      <a class="btn btn-outline-primary" href="{{ post.url }}">Lesa meira</a><br><br>
 
     </li>
   {% endfor %}

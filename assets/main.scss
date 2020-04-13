@@ -1,3 +1,65 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+$black: #000;
+$brown: #c69f73;
+$brown-dark: #9e7f5c;
+$grey: #888;
+$near-black: #424242;
+$white: #fff;
+
+p {
+  color: $near-black;
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  a {
+    color: $black;
+
+    &:hover {
+      color: $black;
+    }
+  }
+}
+
+.btn {
+  border-radius: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background: $brown;
+  border: 1px solid $brown;
+  color: $white;
+
+  &:hover {
+    background: $brown-dark;
+    border: 1px solid $brown-dark;
+  }
+}
+
+.btn-outline-primary {
+  border: 1px solid $brown;
+  color: $black;
+
+  &:hover {
+    background: $brown;
+    border: 1px solid $brown;
+    color: $white;
+  }
+}
+
+.post-date {
+  color: $grey;
+  font-size: 12px;
+  font-style: italic;
+}
