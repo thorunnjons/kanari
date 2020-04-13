@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 categories: []
 title: Afþreyting fyrir fjölskylduna á Gran Canaria
 date: 2019-11-04 00:00:00 +0000
