@@ -10,6 +10,7 @@ $black: #000;
 $brown: #c69f73;
 $brown-dark: #9e7f5c;
 $grey: #888;
+$grey-light: #ccc;
 $near-black: #424242;
 $white: #fff;
 
@@ -67,4 +68,16 @@ img {
   color: $grey;
   font-size: 12px;
   font-style: italic;
+}
+
+.pagination {
+  a {
+    border-bottom: 1px solid $grey-light;
+    color: $brown;
+
+    &:hover {
+      color: $brown-dark;
+      text-decoration: none;
+    }
+  }
 }

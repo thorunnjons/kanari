@@ -5,10 +5,10 @@
 layout: default
 ---
 
-<h1 class="page-heading mb-5">Nýjustu færslur</h1>
+<h1 class="page-hading mb-5">Nýjustu færslur</h1>
 
 <ul class="post-list list-unstyled">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <li class="my-5">
 
       <div class="post-header text-center mb-3">
@@ -25,3 +25,20 @@ layout: default
     </li>
   {% endfor %}
 </ul>
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous mr-auto">
+      Fyrri
+    </a>
+  {% else %}
+    <span class="previous"></span>
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next ml-auto">Næsta</a>
+  {% else %}
+    <span class="next"></span>
+  {% endif %}
+</div>
+

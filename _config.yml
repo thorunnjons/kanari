@@ -20,7 +20,9 @@ collections:
     title: Posts
     output: true
 
+paginate: 10
 permalink: :title
+
  
 # Build settings
 markdown: kramdown
@@ -28,6 +30,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
