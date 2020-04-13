@@ -18,7 +18,9 @@ layout: default
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
       </div>
       <p>{{ post.content | strip_html | truncatewords: 80 }}</p>
-      <a class="btn btn-outline-primary" href="{{ post.url }}">Lesa meira</a><br><br>
+      <div class="text-center">
+        <a class="btn btn-outline-primary" href="{{ post.url }}">Lesa meira</a><br><br>
+      </div>
 
     </li>
   {% endfor %}
