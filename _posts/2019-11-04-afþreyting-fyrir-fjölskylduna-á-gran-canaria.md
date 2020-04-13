@@ -2,7 +2,7 @@
 layout: post
 categories: []
 title: Afþreyting fyrir fjölskylduna á Gran Canaria
-date: 2019-11-04 00:00:00 +0000
+date: 2019-11-04 01:00:00 +0000
 
 ---
 ![](/uploads/poemadelmar.jpg)
