@@ -4,8 +4,6 @@ title: Um okkur
 permalink: "/about/"
 
 ---
-Um okkur
-
 Bienvenidos og takk fyrir að heimsækja síðuna okkar!
 
 ![](/uploads/57538151_10156416802232896_3346958685380280320_o.jpg)
